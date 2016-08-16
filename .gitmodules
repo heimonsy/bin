@@ -1,0 +1,6 @@
+[submodule "fierce"]
+	path = fierce
+	url = https://github.com/AnonSatan/fierce
+[submodule "modules/fierce"]
+	path = modules/fierce
+	url = https://github.com/AnonSatan/fierce
