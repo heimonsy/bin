@@ -1,8 +1,0 @@
-#!/bin/sh
-
-sudo apt-get install -qy libnet-dns-perl
-
-cp -f ./fierce/fierce.pl ../fierce
-chmod +x ../fierce
-
-ln -f -r -s ./sqlmap/sqlmap.py ../sqlmap
