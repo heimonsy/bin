@@ -1,0 +1,6 @@
+#!/bin/sh
+if [ "$1" = "work" ]; then
+    VBoxManage controlvm coolwork acpipowerbutton
+else
+    VBoxManage controlvm $1 acpipowerbutton
+fi

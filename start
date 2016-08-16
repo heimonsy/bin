@@ -1,0 +1,6 @@
+#!/bin/sh
+if [ "$1" = "work" ]; then
+    VBoxManage startvm coolwork --type headless
+else
+    VBoxManage startvm $1 --type headless
+fi
