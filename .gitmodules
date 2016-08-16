@@ -4,3 +4,6 @@
 [submodule "modules/fierce"]
 	path = modules/fierce
 	url = https://github.com/AnonSatan/fierce
+[submodule "modules/sqlmap"]
+	path = modules/sqlmap
+	url = https://github.com/sqlmapproject/sqlmap
